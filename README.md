@@ -9,4 +9,4 @@ Digital delay networks for designing artificial reverberators.
 In Audio Engineering Society Convention 90.
 Audio Engineering Society.
 
-![alt text](https://github.com/gabrieldernbach/general-feedback-delay-network/gfdn.png)
+![alt text](/gfdn.png)
