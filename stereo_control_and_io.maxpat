@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 863.0, 589.0, 233.0, 60.0 ],
+					"style" : "",
+					"text" : "TODO LIST:\n-Tidy gen object, especially sah\n-Lowpass filter histobject, not working yet\n-Alternative Overdrive Saturation?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-76",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -46,19 +59,6 @@
 					"patching_rect" : [ 370.0, 256.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-73",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 477.0, 588.0, 92.0, 22.0 ],
-					"style" : "",
-					"text" : "receive~ mainL"
 				}
 
 			}
@@ -124,7 +124,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 153.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[31]"
 				}
 
 			}
@@ -139,7 +140,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 153.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[30]"
 				}
 
 			}
@@ -154,7 +156,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 153.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[29]"
 				}
 
 			}
@@ -169,7 +172,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 153.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[28]"
 				}
 
 			}
@@ -184,7 +188,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 108.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[27]"
 				}
 
 			}
@@ -199,7 +204,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 108.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[26]"
 				}
 
 			}
@@ -214,7 +220,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 108.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[25]"
 				}
 
 			}
@@ -229,7 +236,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 108.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[24]"
 				}
 
 			}
@@ -244,7 +252,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 63.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[23]"
 				}
 
 			}
@@ -259,7 +268,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 63.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[22]"
 				}
 
 			}
@@ -274,7 +284,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 63.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[21]"
 				}
 
 			}
@@ -289,7 +300,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 63.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[20]"
 				}
 
 			}
@@ -304,7 +316,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 18.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[19]"
 				}
 
 			}
@@ -319,7 +332,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 18.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[18]"
 				}
 
 			}
@@ -334,7 +348,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 18.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[17]"
 				}
 
 			}
@@ -349,7 +364,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 18.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[16]"
 				}
 
 			}
@@ -369,7 +385,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 399.0, 134.0, 985.0, 669.0 ],
+						"rect" : [ 421.0, 99.0, 794.0, 669.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -397,6 +413,19 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-59",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 478.0, 22.5, 213.0, 33.0 ],
+									"style" : "",
+									"text" : "use multislider @size 16 alternative\nand input this listfunnel"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-111",
@@ -799,24 +828,24 @@
 										"clips" : [ 											{
 												"filename" : "learning-example.aiff",
 												"filekind" : "audiofile",
-												"selection" : [ 0.461538, 0.673077 ],
+												"selection" : [ 0.0, 0.663462 ],
 												"loop" : 1,
 												"content_state" : 												{
-													"originallengthms" : [ 0.0 ],
+													"speed" : [ 1.0 ],
+													"formantcorrection" : [ 0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"pitchshift" : [ 1.0 ],
 													"slurtime" : [ 0.0 ],
+													"mode" : [ "basic" ],
 													"formant" : [ 1.0 ],
 													"originaltempo" : [ 120.0 ],
-													"timestretch" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"quality" : [ "basic" ],
-													"play" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
+													"originallengthms" : [ 0.0 ],
 													"pitchcorrection" : [ 0 ],
-													"basictuning" : [ 440 ],
-													"formantcorrection" : [ 0 ],
-													"mode" : [ "basic" ]
+													"originallength" : [ 0.0, "ticks" ]
 												}
 
 											}
@@ -991,19 +1020,6 @@
 									"patching_rect" : [ 50.0, 237.0, 81.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend del1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1156.25, 242.0, 40.0, 22.0 ],
-									"style" : "",
-									"text" : "line"
 								}
 
 							}
@@ -2110,7 +2126,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 460.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[15]"
 				}
 
 			}
@@ -2125,7 +2142,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 460.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[14]"
 				}
 
 			}
@@ -2140,7 +2158,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 460.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[13]"
 				}
 
 			}
@@ -2155,7 +2174,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 460.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[12]"
 				}
 
 			}
@@ -2170,7 +2190,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 415.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[11]"
 				}
 
 			}
@@ -2185,7 +2206,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 415.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[10]"
 				}
 
 			}
@@ -2200,7 +2222,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 415.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[9]"
 				}
 
 			}
@@ -2215,7 +2238,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 415.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[8]"
 				}
 
 			}
@@ -2230,7 +2254,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 370.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[7]"
 				}
 
 			}
@@ -2245,7 +2270,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 370.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[6]"
 				}
 
 			}
@@ -2260,7 +2286,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 370.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[5]"
 				}
 
 			}
@@ -2275,7 +2302,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 370.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[4]"
 				}
 
 			}
@@ -2290,7 +2318,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 325.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[3]"
 				}
 
 			}
@@ -2305,7 +2334,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.0, 325.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[2]"
 				}
 
 			}
@@ -2320,7 +2350,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 325.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial[1]"
 				}
 
 			}
@@ -2335,7 +2366,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 325.0, 40.0, 40.0 ],
 					"size" : 1.0,
-					"style" : ""
+					"style" : "",
+					"varname" : "dial"
 				}
 
 			}
@@ -2355,7 +2387,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 84.0, 129.0, 985.0, 669.0 ],
+						"rect" : [ 338.0, 133.0, 985.0, 669.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2785,24 +2817,24 @@
 										"clips" : [ 											{
 												"filename" : "learning-example.aiff",
 												"filekind" : "audiofile",
-												"selection" : [ 0.461538, 0.673077 ],
+												"selection" : [ 0.644231, 1.0 ],
 												"loop" : 1,
 												"content_state" : 												{
-													"originallengthms" : [ 0.0 ],
+													"speed" : [ 1.0 ],
+													"formantcorrection" : [ 0 ],
+													"basictuning" : [ 440 ],
+													"followglobaltempo" : [ 0 ],
+													"timestretch" : [ 0 ],
+													"play" : [ 0 ],
+													"quality" : [ "basic" ],
+													"pitchshift" : [ 1.0 ],
 													"slurtime" : [ 0.0 ],
+													"mode" : [ "basic" ],
 													"formant" : [ 1.0 ],
 													"originaltempo" : [ 120.0 ],
-													"timestretch" : [ 0 ],
-													"pitchshift" : [ 1.0 ],
-													"speed" : [ 1.0 ],
-													"originallength" : [ 0.0, "ticks" ],
-													"quality" : [ "basic" ],
-													"play" : [ 0 ],
-													"followglobaltempo" : [ 0 ],
+													"originallengthms" : [ 0.0 ],
 													"pitchcorrection" : [ 0 ],
-													"basictuning" : [ 440 ],
-													"formantcorrection" : [ 0 ],
-													"mode" : [ "basic" ]
+													"originallength" : [ 0.0, "ticks" ]
 												}
 
 											}
@@ -4094,17 +4126,49 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1116.5, 444.5, 58.0, 22.0 ],
 					"restore" : 					{
-						"left_del" : [ 60420.019531, 61736.316406, 57070.277344, 73957.898438 ],
+						"dial" : [ 0.0 ],
+						"dial[10]" : [ 0.0 ],
+						"dial[11]" : [ 0.0 ],
+						"dial[12]" : [ 0.0 ],
+						"dial[13]" : [ 0.0 ],
+						"dial[14]" : [ 0.0 ],
+						"dial[15]" : [ 0.0 ],
+						"dial[16]" : [ 0.0 ],
+						"dial[17]" : [ 0.0 ],
+						"dial[18]" : [ 0.0 ],
+						"dial[19]" : [ 0.0 ],
+						"dial[1]" : [ 0.0 ],
+						"dial[20]" : [ 0.0 ],
+						"dial[21]" : [ 0.0 ],
+						"dial[22]" : [ 0.0 ],
+						"dial[23]" : [ 0.0 ],
+						"dial[24]" : [ 0.0 ],
+						"dial[25]" : [ 0.0 ],
+						"dial[26]" : [ 0.0 ],
+						"dial[27]" : [ 0.0 ],
+						"dial[28]" : [ 0.0 ],
+						"dial[29]" : [ 0.0 ],
+						"dial[2]" : [ 0.0 ],
+						"dial[30]" : [ 0.0 ],
+						"dial[31]" : [ 0.0 ],
+						"dial[3]" : [ 0.0 ],
+						"dial[4]" : [ 0.0 ],
+						"dial[5]" : [ 0.0 ],
+						"dial[6]" : [ 0.0 ],
+						"dial[7]" : [ 0.0 ],
+						"dial[8]" : [ 0.0 ],
+						"dial[9]" : [ 0.0 ],
+						"left_del" : [ 77048.273438, 33455.171875, 89213.796875, 65896.554688 ],
 						"left_del[1]" : [ 0.0, 0.0, 0.0, 0.0 ],
-						"left_del[2]" : [ 52815.949219, 59271.46875, 80104.609375, 79119.15625 ],
-						"left_del[3]" : [ 0.0, 0.0, 0.005202, 0.0 ],
-						"live.gain~" : [ -9.573429 ],
-						"live.gain~[1]" : [ -2.731787 ]
+						"left_del[2]" : [ 75020.6875, 49675.863281, 71979.3125, 54744.828125 ],
+						"left_del[3]" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"live.gain~" : [ -4.133858 ],
+						"live.gain~[1]" : [ -70.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u058000546"
+					"varname" : "u494000544"
 				}
 
 			}
@@ -4118,7 +4182,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1116.5, 416.5, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
@@ -4153,7 +4217,7 @@
 
 					}
 ,
-					"varname" : "live.gain~[1]"
+					"varname" : "live.gain~"
 				}
 
 			}
@@ -4500,7 +4564,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 91.0, 82.0, 410.072723, 123.0 ],
-									"setfilter" : [ 0, 1, 1, 0, 0, 24000.0, 1.0, 0.9, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0 ],
+									"setfilter" : [ 0, 1, 1, 0, 0, 14826.890625, 1.0, 0.9, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -4518,7 +4582,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 91.0, 251.0, 410.072723, 126.558662 ],
-									"setfilter" : [ 0, 5, 1, 0, 0, 10991.686523, 1.707332, 0.331347, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+									"setfilter" : [ 0, 5, 1, 0, 0, 1070.264526, 0.544763, 1.178464, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -4737,7 +4801,7 @@
 
 					}
 ,
-					"varname" : "live.gain~"
+					"varname" : "live.gain~[1]"
 				}
 
 			}
@@ -5368,8 +5432,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-100" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-5" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-5" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-100" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
